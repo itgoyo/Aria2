@@ -1,0 +1,174 @@
+commit f0f1b8ef47c391550ff99982f1cad3dd4e1d410d (HEAD, tag: release-1.21.0)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-15
+
+    clang-format-3.6
+
+commit 6e884bea6300bb1110577a87b9512ddd1739b40c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-15
+
+    Bump up version number to 1.21.0
+
+commit 1da03c7b7922ccc7119be32508c8707245eb011d
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-15
+
+    Update NEWS
+
+commit 18bda5516eb33a4fbfe191db8191f372620ddb6c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-13
+
+    Update third party libraries used in binary distributions
+
+commit 4595aa75e17884f36982e9ba2d56c24725d30538
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-13
+
+    SessionSerializer: Fix bug that pause=true is added to wrong item
+    
+    This change also defers writing metadata download to the location
+    where first its follower download is written.
+
+commit 1a0e5e32f3291e79908edfab584f38cb9bd652c4
+Merge: 21754fa e9b94ec
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-06
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-06
+
+    Merge pull request #586 from ITriskTI/patch-1
+    
+    Update aria2c.rst
+
+commit e9b94ecffd1b1cd656025e3f7c7f5a9d2543633e
+Author:     ITriskTI <ITriskTI@gmail.com>
+AuthorDate: 2016-03-06
+Commit:     ITriskTI <ITriskTI@gmail.com>
+CommitDate: 2016-03-06
+
+    Update aria2c.rst
+
+commit 21754fa103647395b3eeb100506ce1b12aaed60a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-05
+
+    Add following to aria2.tellStatus response key as reverse link for followedBy
+
+commit 74811ddaff123e331368f69d93de4c9741f82fee
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-03
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-03
+
+    mingw: Add warning for falloc
+
+commit e6e3cd2e325d24137eb3bc328768d2f4377e89af
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-03-03
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Allow to run clang-format with external build dir
+
+commit fc490ac05cc575113bfcdd154af5b01e9398999a
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-01-12
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Update ciphers in AppleTLS
+    
+    Also enable fast start while at it
+
+commit ba7315b76da2229246456bb8419c812014a4f48c
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-03-03
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Remove universal build
+    
+    It's kinda broken and interfering with libssh2
+
+commit c1dbd9f6a53304c0d0c17fdc9e1ce0da9cb743cc
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-03-03
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Enable libssh2 and sftp
+    
+    Closes GH-468
+
+commit 7d88ef6606d5a75e47034f879f60198101c99b0e
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-03-03
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Update OSX dependencies
+    
+    Closes GH-466
+
+commit 981597bc544f7cce6db53747311a8e62f11dd30a
+Author:     Nils Maier <maierman@web.de>
+AuthorDate: 2016-03-03
+Commit:     Nils Maier <maierman@web.de>
+CommitDate: 2016-03-03
+
+    Force libc++
+
+commit 99e7d981935b40330786d47e769cc49c061ccec9
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-03-02
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-03-02
+
+    Fix sqlite3 download URI
+
+commit 8985d66e71f980e7d2765753800078f47761f1ba
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-23
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-23
+
+    Fix compile error without TLS support
+
+commit a82db8e4626a1551e0c89301ac1d47db2bbcfa03
+Merge: b090946 c275b6f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-18
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-18
+
+    Merge branch 'athmane-master'
+
+commit c275b6f297a50801cb4cc7b343d1a7b3d8871262
+Author:     Athmane Madjoudj <athmane@fedoraproject.org>
+AuthorDate: 2016-02-17
+Commit:     Athmane Madjoudj <athmane@fedoraproject.org>
+CommitDate: 2016-02-17
+
+    Remove trailing spaces
+
+commit 1849ccfbba57038f1fa57fd0621b80e77a198a4c
+Author:     Athmane Madjoudj <athmane@fedoraproject.org>
+AuthorDate: 2016-02-17
+Commit:     Athmane Madjoudj <athmane@fedoraproject.org>
+CommitDate: 2016-02-17
+
+    Add support for using gnutls system wide crypto policy

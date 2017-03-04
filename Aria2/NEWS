@@ -1,0 +1,40 @@
+aria2 1.21.0
+============
+
+Release Note
+------------
+
+This release fixes several bugs, see the Changes for details.  We
+added "following" key to the response of aria2.tellStatus RPC method
+as reverse link for followedBy.
+
+Changes
+-------
+
+* SessionSerializer: Fix bug that pause=true is added to wrong item
+
+  This change also defers writing metadata download to the location
+  where first its follower download is written.
+
+* Add "following" to aria2.tellStatus response key as reverse link for
+  followedBy
+
+* mingw: Add warning for falloc
+
+* Update ciphers in AppleTLS
+
+  Also enable fast start while at it
+
+* OSX: Enable libssh2 and sftp
+
+  Closes GH-468
+
+* Update OSX dependencies
+
+  Closes GH-466
+
+* Fix compile error without TLS support
+
+* Add support for using gnutls system wide crypto policy
+
+  Patch from Athmane Madjoudj
