@@ -40,7 +40,7 @@
 
 ## 这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
 
-增加到cheome插件安装
+增加chrome插件安装
 
 [https://github.com/acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter)
 
