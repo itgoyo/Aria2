@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "Exporter"
+    },
+    "description": {
+        "message": "Assistant to export download links to aria2/aria2-rpc"
+    },
+    "openContextMenuTitle": {
+        "message": "Export to aria2-rpc"
+    }
+}
