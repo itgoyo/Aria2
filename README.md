@@ -57,4 +57,4 @@
 
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
-![](http://p1.bqimg.com/567571/c18992ccc126b537.png
+![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
