@@ -1,4 +1,4 @@
-Â# Aria2 配置实用教程
+## Aria2 配置实用教程
 
 ### aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用
 
@@ -57,5 +57,4 @@
 
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
-![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
-ÂÂ
+![](http://p1.bqimg.com/567571/c18992ccc126b537.png
