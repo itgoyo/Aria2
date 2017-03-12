@@ -1,4 +1,4 @@
-# Aria2 配置实用教程
+Â# Aria2 配置实用教程
 
 ### aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用
 
@@ -42,6 +42,14 @@
 
 增加chrome插件安装
 
+安装如下：
+
+- 打开开发者额模式
+
+- 加载已解压的拓展程序，找到下载下来的拓展程序，即可（注意，目录一般就叫chrome）
+
+![](http://p1.bpimg.com/567571/e592a65443b20a38.png)
+
 [https://github.com/acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter)
 
 ![](http://i1.piimg.com/567571/579b4064eb793132.png)
@@ -50,3 +58,4 @@
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
 ![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
+ÂÂ
