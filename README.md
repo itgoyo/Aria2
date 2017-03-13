@@ -28,7 +28,7 @@
 
 ![](http://i1.piimg.com/567571/0af59f7f2d105b90.png)
 
-- ### 如果你是用的是[http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
+### 如果你是用的是[http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
 ![](http://i1.piimg.com/567571/19d6d7a425d85a2f.png)
 
