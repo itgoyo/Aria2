@@ -61,4 +61,3 @@
 ### 如果您是Mac用户
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 ![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
-![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
