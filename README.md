@@ -20,7 +20,7 @@
 
 完了之后会出现一个命令框，让它一直开着不能断，否则下载也会跟着断
 
-- ### 如果你是用的是[http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
+### 如果你是用的是[http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
 ![](http://i1.piimg.com/567571/22336736fab2fddc.png)
 
@@ -58,3 +58,7 @@
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
 ![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
+### 如果您是Mac用户
+[Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
+![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
+![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
