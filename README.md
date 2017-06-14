@@ -2,11 +2,11 @@
 
 ### aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用
 
-最常用的[webui-aria2](http://ziahamza.github.io/webui-aria2/)
+最常用的webui-aria2
 
 [http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
-也可以用binux大神的[YAAW](http://binux.github.io/yaaw/demo/)
+也可以用binux大神的YAAW
 
 [http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
@@ -36,9 +36,9 @@
 
 ![](http://p1.bpimg.com/567571/8807a061237faa3c.png)
 
-### 到此Aria2的部署已经差不多了
+#### 到此Aria2的部署已经差不多了
 
-## 这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
+#### 这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
 
 增加chrome插件安装
 
@@ -58,6 +58,8 @@
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
 ![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
+
 ### 如果您是Mac用户
+
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 ![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
