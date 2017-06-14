@@ -12,7 +12,7 @@
 
 下载完了Github上的文件之后打开会有以下几个文件
 
-![](http://p1.bpimg.com/567571/e52f0ec72290e5eb.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/38310448.jpg?imageMogr2/thumbnail/700x)
 
 - [1] 先打开start.bat
 
@@ -22,19 +22,19 @@
 
 ### 如果你是用的是[http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
-![](http://i1.piimg.com/567571/22336736fab2fddc.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/433684.jpg?imageMogr2/thumbnail/700x)
 
 ### 把主机填写成localhost保存退出即可
 
-![](http://i1.piimg.com/567571/0af59f7f2d105b90.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/29601690.jpg?imageMogr2/thumbnail/700x)
 
 ### 如果你是用的是[http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
-![](http://i1.piimg.com/567571/19d6d7a425d85a2f.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/44923909.jpg?imageMogr2/thumbnail/700x)
 
 ### 填写如下保存退出即可
 
-![](http://p1.bpimg.com/567571/8807a061237faa3c.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/41384931.jpg?imageMogr2/thumbnail/700x)
 
 #### 到此Aria2的部署已经差不多了
 
@@ -48,18 +48,22 @@
 
 - 加载已解压的拓展程序，找到下载下来的拓展程序，即可（注意，目录一般就叫chrome）
 
-![](http://p1.bpimg.com/567571/e592a65443b20a38.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/63030311.jpg?imageMogr2/thumbnail/700x)
 
-[https://github.com/acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter)
+[BaiduExporter](https://github.com/acgotaku/BaiduExporter)
 
-![](http://i1.piimg.com/567571/579b4064eb793132.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/25753714.jpg?imageMogr2/thumbnail/700x)
 
 
 [迅雷离线助手](https://chrome.google.com/webstore/detail/thunderlixianassistant/eehlmkfpnagoieibahhcghphdbjcdmen?hl=zh-CN)
 
-![](http://p1.bqimg.com/567571/c18992ccc126b537.png)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/97459289.jpg?imageMogr2/thumbnail/700x)
+
+-------
 
 ### 如果您是Mac用户
 
+请转 ☞   
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
-![](http://p1.bqimg.com/567571/58b53a7da403f7d3.png)
+
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/17375181.jpg?imageMogr2/thumbnail/700x)
