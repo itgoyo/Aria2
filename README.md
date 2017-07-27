@@ -1,15 +1,19 @@
 ## Aria2 配置实用教程(直接下载，里边有所有资源)欢迎star or fork，以便下次查找
-
+### ( ´◔ ‸◔')
 
 ### aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用
 
 最常用的webui-aria2
-
 [http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
 也可以用binux大神的YAAW
-
 [http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
+
+本人参照了binux大神的YAAW改了一个Aria2-GUI（带网易云音乐+Chrome离线跳跳龙，让你下载过程不会那么无聊）
+
+[http://kotlinandroid.net/Aria2-GUI](http://kotlinandroid.net/Aria2-GUI/index.html)
+
+![](http://omvbl46i3.bkt.clouddn.com/17-7-27/45078786.jpg)
 
 下载完了Github上的文件之后打开会有以下几个文件
 
