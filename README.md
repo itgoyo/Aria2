@@ -1,5 +1,5 @@
 ## ↓支持一下
-[![GitHub stars](https://img.shields.io/github/stars/itgoyo/Aria2.svg?style=social&label=Star)](https://github.com/itgoyo/Aria2) [![GitHub forks](https://img.shields.io/github/forks/itgoyo/Aria2.svg?style=social&label=Fork)](https://github.com/itgoyo/Aria2/fork) [![GitHub watchers](https://img.shields.io/github/watchers/itgoyo/Aria2.svg?style=social&label=Watch)](https://github.com/itgoyo/Aria2) [![GitHub followers](https://img.shields.io/github/followers/itgoyo.svg?style=social&label=Follow)](https://github.com/itgoyo/Aria2) 
+[![GitHub stars](https://img.shields.io/github/stars/itgoyo/Aria2.svg?style=social&label=Star)](https://github.com/itgoyo/Aria2) [![GitHub forks](https://img.shields.io/github/forks/itgoyo/Aria2.svg?style=social&label=Fork)](https://github.com/itgoyo/Aria2/fork) [![GitHub watchers](https://img.shields.io/github/watchers/itgoyo/Aria2.svg?style=social&label=Watch)](https://github.com/itgoyo/Aria2) [![GitHub followers](https://img.shields.io/github/followers/itgoyo.svg?style=social&label=Follow)](https://github.com/itgoyo/Aria2)
 
 ## Aria2 配置实用教程(直接下载，里边有所有资源)欢迎star or fork，以便下次查找
 ### ( ´◔ ‸◔')
@@ -68,6 +68,12 @@
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/97459289.jpg?imageMogr2/thumbnail/700x)
 
 -------
+
+### **关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)**
+
+将非官方扩展程序加入chrome的白名单
+
+[解决方法](http://xclient.info/a/1ddd2a3a-d34b-b568-c0d0-c31a95f0b309.html?_=cf9dfad27682664c64044361f26166a5)
 
 ### 如果您是Mac用户
 
