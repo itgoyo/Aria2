@@ -4,7 +4,9 @@
 ## Aria2 配置实用教程(直接下载，里边有所有资源)欢迎star or fork，以便下次查找
 ### ( ´◔ ‸◔')
 
-### aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用
+### 如果觉得配置麻烦，请拉到最下面直接使用`Tampermonkey`
+
+**aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用**
 
 最常用的webui-aria2
 [http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
@@ -12,11 +14,11 @@
 也可以用binux大神的YAAW
 [http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
-本人参照了binux大神的YAAW改了一个Aria2-GUI（带网易云音乐+Chrome离线跳跳龙，让你下载过程不会那么无聊）
+本人参照了binux大神的YAAW改了一个Aria2-GUI（带网易云音乐+Chrome离线跳跳龙）
 
 [http://kotlinandroid.net/Aria2-GUI](http://kotlinandroid.net/Aria2-GUI/index.html)
 
-![](http://omvbl46i3.bkt.clouddn.com/17-7-27/45078786.jpg)
+![](http://omvbl46i3.bkt.clouddn.com/17-7-27/45078786.jpg?imageMogr2/thumbnail/700x)
 
 下载完了Github上的文件之后打开会有以下几个文件
 
@@ -32,7 +34,7 @@
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/433684.jpg?imageMogr2/thumbnail/700x)
 
-### 把主机填写成localhost保存退出即可
+- 把主机填写成localhost保存退出即可
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/29601690.jpg?imageMogr2/thumbnail/700x)
 
@@ -40,15 +42,14 @@
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/44923909.jpg?imageMogr2/thumbnail/700x)
 
-### 填写如下保存退出即可
+- 填写如下保存退出即可
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/41384931.jpg?imageMogr2/thumbnail/700x)
 
-#### 到此Aria2的部署已经差不多了
+到此Aria2的部署已经差不多了,这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
 
-#### 这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
-
-增加chrome插件安装
+-----
+#### 增加chrome插件安装
 
 安装如下：
 
@@ -80,10 +81,37 @@
 请转 ☞   
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 
-![](http://omvbl46i3.bkt.clouddn.com/17-6-14/17375181.jpg?imageMogr2/thumbn)
+![](http://omvbl46i3.bkt.clouddn.com/17-6-14/17375181.jpg?imageMogr2/thumbnail/700x)
+
+-----
+
+### 如果你觉得这样子操作很麻烦？那么强烈推荐你使用Tempermonkey脚本
+
+- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN)
+
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN
+
+![](http://omvbl46i3.bkt.clouddn.com/e5a92d651ad22965999ca789d6b4b6f1.png?imageMogr2/thumbnail/700x)
 
 
-**如果觉得对您有帮助，想请我喝咖啡**
+不能翻墙的小伙伴可以直接从我的Github里边的文件直接获取
+
+![](http://omvbl46i3.bkt.clouddn.com/b4fe76fbb6646a514010cfd9bc93d201.png?imageMogr2/thumbnail/700x)
+
+
+[百度云直接下载助手(原作者版)](https://greasyfork.org/zh-CN/scripts/23635-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B)
+
+由于原作者提供的代码总是出现不能正常显示直接下载的入口,本人修改此bug之后又发布了在作者原基础上修改的版本
+
+[百度网盘直接下载助手(显示直接下载入口)](https://greasyfork.org/zh-CN/scripts/36549-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E6%98%BE%E7%A4%BA%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%85%A5%E5%8F%A3)
+
+![](http://omvbl46i3.bkt.clouddn.com/f4684ca049c3e9144412a720b456a86e.png?imageMogr2/thumbnail/700x)
+
+这样即可获取下载连接，复制到迅雷或者IMD之类的下载器，让你享受飞一般的感觉。(本人百兆光纤，速度基本保持10m/s左右)
+
+从此云端女友从不断线，有了这个它，忘掉那个她!
+
+##### 如果觉得对您有帮助，想请我喝咖啡
 
 
 ![](http://omvbl46i3.bkt.clouddn.com/0e4d4973067ea8c899a141ebd0ddbb9b.png)
