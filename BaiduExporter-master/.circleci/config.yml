@@ -1,0 +1,80 @@
+version: 2
+
+defaults: &defaults
+  working_directory: ~/project/BaiduExporter
+  docker:
+    - image: circleci/node:6-browsers
+
+jobs:
+  install:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-chache-{{ .Branch }}-{{ checksum "chrome/package-lock.json" }}
+      - run: npm --prefix chrome/ install
+      - save_cache:
+          key: node-chache-{{ .Branch }}-{{ checksum "chrome/package-lock.json" }}
+          paths:
+            - chrome/node_modules/
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - BaiduExporter
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/project
+
+      - run:
+          name: install dependency
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y vim-common
+            sudo apt-get install -y libpng-dev
+      - run: npm --prefix chrome/ run build
+      - run: echo -e $KEY > /tmp/key.pem
+      - run: .circleci/pack chrome/dist/ /tmp/key.pem
+      - run: rm -rf chrome/release/
+      - run: mv chrome/dist/ chrome/release/
+      - run:
+          name: Avoid hosts unknown for github
+          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+      - run: |
+          git config --global user.email "acgotaku311@gmail.com"
+          git config --global user.name "acgotaku311"
+          git add BaiduExporter.crx
+          git add chrome/release/
+          git commit -m "[ci skip] update chrome.crx and release"
+          git push -u origin master
+
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run:
+          name: check PR
+          command: |
+            if [[ ! -z $CIRCLE_PULL_REQUEST ]]; then
+              npm --prefix chrome/ run test
+            fi
+
+workflows:
+  version: 2
+  install_and_test:
+    jobs:
+      - install
+      - build:
+          requires:
+            - install
+          filters:
+            branches:
+              only:
+                - master
+      - test:
+          requires:
+            - install

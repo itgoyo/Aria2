@@ -1,12 +1,29 @@
-TROUBLESHOOTING:
+# BaiduExporter Contributing Guide
 
-1. 尝试安装最新版本插件
-2. 尝试清空浏览器缓存
-3. 尝试卸载插件后重新安装
+Before contributing to BaiduExporter, please make sure to take a moment and read through the following guidelines.
 
-发起 Issue 时，请最好提供：
+- [JavaScript Standard Style](https://standardjs.com/)
+- [Sass Guidelines](https://sass-guidelin.es/)
 
-1. 您下载的内容地址
-2. 插件版本号，浏览器版本号，系统版本号
-3. 列举出现问题的详细步骤
-4. 描述能否复现问题
+
+## Development Setup
+
+Please make sure your [Node.js](http://nodejs.org) **version 6+**.
+
+After cloning the repo, run:
+
+``` bash
+$ cd chrome
+$ npm install
+$ npm run dev
+```
+
+Now, you can load extension from `dist` fold. Gulp will watch and re-build the project.
+
+If you want to package the extension. run:
+
+``` bash
+$ npm run build
+```
+
+Gulp will generate compressed file in `dist` fold.

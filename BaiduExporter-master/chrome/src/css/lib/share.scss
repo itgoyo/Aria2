@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+$grey-da: #dadada;
+$grey-fa: #fafafa;
+$opacity-5: rgba(0, 0, 0, 0.5);
+
+$header-height: 40px;
+$row-height: 40px;
+$padding-space: 10px;
+$border: 1px solid $grey-da;
+
+@mixin button-border {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}

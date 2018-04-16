@@ -1,0 +1,62 @@
+{
+  "name": "baiduexporter",
+  "version": "1.0.1",
+  "description": "Assistant for Baidu to export download links to aria2/aria2-rpc",
+  "main": "background.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=development gulp serve",
+    "build": "NODE_ENV=production gulp public",
+    "clean": "gulp clean",
+    "lint:js": "gulp lint:js",
+    "lint:css": "gulp lint:css",
+    "test": "npm run lint:js && npm run lint:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acgotaku/BaiduExporter.git"
+  },
+  "keywords": [
+    "BaiduExporter",
+    "aria2"
+  ],
+  "author": "acgotaku311",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/acgotaku/BaiduExporter/issues"
+  },
+  "homepage": "https://github.com/acgotaku/BaiduExporter#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-buffer": "0.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylelint": "^6.0.0",
+    "gulp-tap": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "run-sequence": "^2.2.0",
+    "stylelint": "^9.0.0",
+    "stylelint-config-sass-guidelines": "^4.1.0",
+    "stylelint-order": "^0.8.0",
+    "stylelint-scss": "^2.3.0"
+  }
+}

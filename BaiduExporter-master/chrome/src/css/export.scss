@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+@import './lib/share';
+
+.export-menu {
+  &-row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 5px;
+
+    &:last-child {
+      height: 200px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &-button {
+    @include button-border;
+    color: #666;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 30px;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+      border-color: #5cb3fd;
+      color: #666;
+      text-decoration: none;
+    }
+  }
+
+  &-textarea {
+    @include button-border;
+    padding: 5px $padding-space;
+    resize: none;
+    width: 100%;
+  }
+}

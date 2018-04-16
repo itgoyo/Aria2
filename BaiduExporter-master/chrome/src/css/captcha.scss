@@ -1,0 +1,83 @@
+@charset 'utf-8';
+
+@import './lib/share';
+
+.captcha-menu {
+  .modal-inner {
+    width: 520px;
+  }
+
+  &-row {
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    padding: 30px;
+  }
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-label {
+    padding: 0 $padding-space;
+
+    &.warn-o {
+      color: #f8645c;
+    }
+  }
+
+  &-input {
+    @include button-border;
+    height: 28px;
+    padding: 0 $padding-space;
+    width: 100px;
+
+    &:focus {
+      border-color: #5cb3fd;
+    }
+  }
+
+  &-img {
+    padding: 0 $padding-space;
+  }
+
+  &-operate {
+    display: flex;
+    justify-content: center;
+    padding: $padding-space;
+    width: 100%;
+
+    .captcha-menu-button {
+      width: 100px;
+    }
+  }
+
+  &-button {
+    @include button-border;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 $padding-space;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+      border-color: #5cb3fd;
+      color: #666;
+      text-decoration: none;
+    }
+
+    &.blue-o {
+      background-color: #3b8cff;
+      color: #fff;
+      margin: 0 20px;
+
+      &:hover {
+        background-color: #77afff;
+      }
+    }
+  }
+}
