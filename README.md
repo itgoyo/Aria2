@@ -136,7 +136,7 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 ### 安装成功
 在安装成功之后，**进入浏览器**下载资源时会跳转到创建任务页面，然后选择保存的路径和分段数进行创建下载任务。
 ![新建任务](https://github.com/monkeyWie/proxyee-down/raw/master/.guide/common/new-task.png)
-**　　　　　　　　　　　200带宽下的速度　22m/s**
+**200带宽下的速度　22m/s**
 ![](http://omvbl46i3.bkt.clouddn.com/31a86ce4817182807062a9f1f717973d.png)
 ## 常见问题(**必看**)
 在开始使用前务必看一遍[常见问题列表](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/FAQ.md)，可以解决你使用proxyee-down下载遇到的绝大多数问题。
