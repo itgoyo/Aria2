@@ -1,20 +1,32 @@
 ## ↓支持一下
 [![GitHub stars](https://img.shields.io/github/stars/itgoyo/Aria2.svg?style=social&label=Star)](https://github.com/itgoyo/Aria2) [![GitHub forks](https://img.shields.io/github/forks/itgoyo/Aria2.svg?style=social&label=Fork)](https://github.com/itgoyo/Aria2/fork) [![GitHub watchers](https://img.shields.io/github/watchers/itgoyo/Aria2.svg?style=social&label=Watch)](https://github.com/itgoyo/Aria2) [![GitHub followers](https://img.shields.io/github/followers/itgoyo.svg?style=social&label=Follow)](https://github.com/itgoyo/Aria2)
 
-## Aria2 配置实用教程(直接下载，里边有所有资源)欢迎star or fork，以便下次查找
-### ( ´◔ ‸◔')
+* [Aria2](#aria2)
+   * [webui-aria2](#webui-aria2)
+   * [YAAW](#yaaw)
+   * [Aria2-GUI](#aria2-gui)
+      * [增加chrome插件安装](#增加chrome插件安装)
+      * [关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)](#关于导入插件老是提示建议停止开发者模式解决方法仅适用于crx插件)
+      * [如果您是Mac用户](#如果您是mac用户)
+* [Tampermonkey (:rocket:个人比较推荐)](#tampermonkey)
+* [Proxyee-down](#proxyee-down)
+   * [常见问题(<strong>必看</strong>)](#常见问题必看)
+   * [常用功能](#常用功能)
+      * [手动创建任务](#手动创建任务)
+      * [刷新任务下载链接](#刷新任务下载链接)
+* [如果觉得对您有帮助，想请我喝咖啡](#如果觉得对您有帮助想请我喝咖啡)
 
-### 如果觉得配置麻烦，请拉到最下面直接使用`Tampermonkey`
+# Aria2
 
 **aria2是基于命令行的下载工具，不过还好大神们早已开发了各种易用的UI方便我们小白们使用**
 
-最常用的webui-aria2
+## webui-aria2
 [http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
-也可以用binux大神的YAAW
+## YAAW
 [http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
-本人参照了binux大神的YAAW改了一个Aria2-GUI（带网易云音乐+Chrome离线跳跳龙）
+## Aria2-GUI
 
 [http://kotlinandroid.net/Aria2-GUI](http://kotlinandroid.net/Aria2-GUI/index.html)
 
@@ -30,7 +42,7 @@
 
 完了之后会出现一个命令框，让它一直开着不能断，否则下载也会跟着断
 
-### 如果你是用的是[http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
+如果你是用的是[http://ziahamza.github.io/webui-aria2/](http://ziahamza.github.io/webui-aria2/)
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/433684.jpg?imageMogr2/thumbnail/700x)
 
@@ -38,7 +50,7 @@
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/29601690.jpg?imageMogr2/thumbnail/700x)
 
-### 如果你是用的是[http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
+如果你是用的是[http://binux.github.io/yaaw/demo/](http://binux.github.io/yaaw/demo/)
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/44923909.jpg?imageMogr2/thumbnail/700x)
 
@@ -49,7 +61,7 @@
 到此Aria2的部署已经差不多了,这个时候我们就要下载迅雷离线下载还有百度云Aria2导出下载了
 
 -----
-#### 增加chrome插件安装
+### 增加chrome插件安装
 
 安装如下：
 
@@ -70,7 +82,7 @@
 
 -------
 
-### **关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)**
+### 关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)
 
 将非官方扩展程序加入chrome的白名单
 
@@ -78,14 +90,14 @@
 
 ### 如果您是Mac用户
 
-请转 ☞   
+请转 ☞
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/17375181.jpg?imageMogr2/thumbnail/700x)
 
 -----
 
-### 如果你觉得这样子操作很麻烦？那么强烈推荐你使用Tempermonkey脚本
+# Tampermonkey
 
 - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN)
 
@@ -111,8 +123,30 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 这样即可获取下载连接，复制到迅雷或者IMD之类的下载器，让你享受飞一般的感觉。(本人百兆光纤，速度基本保持10m/s左右)
 
-从此云端女友从不断线，有了这个它，忘掉那个她!
 
-##### 如果觉得对您有帮助，想请我喝咖啡
+# Proxyee-down
+[Proxyee-down](https://github.com/monkeyWie/proxyee-down)
+### 下载
+- [OneDrive](https://imhx-my.sharepoint.com/:f:/g/personal/pd_imhx_onmicrosoft_com/EnPrybHS3rVFuy_HdcP7RLoBwhb0k5ayJdIzwjU0hCM9-A?e=he0oIz)(推荐)
+- [百度云](https://pan.baidu.com/s/1fgBnWJ0gl6ZkneGkVDIEfQ) 提取码:d92x
+### 安装
+1. [Windows安装教程](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/windows/read.md)
+2. [MAC安装教程](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/mac/read.md)
+3. [Linux安装教程](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/linux/read.md)
+### 安装成功
+在安装成功之后，**进入浏览器**下载资源时会跳转到创建任务页面，然后选择保存的路径和分段数进行创建下载任务。
+![新建任务](https://github.com/monkeyWie/proxyee-down/raw/master/.guide/common/new-task.png)
+**　　　　　　　　　　　200带宽下的速度　22m/s**
+![](http://omvbl46i3.bkt.clouddn.com/31a86ce4817182807062a9f1f717973d.png)
+## 常见问题(**必看**)
+在开始使用前务必看一遍[常见问题列表](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/FAQ.md)，可以解决你使用proxyee-down下载遇到的绝大多数问题。
+## 常用功能
+### 手动创建任务
+可以根据链接来创建一个任务，支持自定义请求头和请求体，具体请[查看](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/common/create/read.md)。
+### 刷新任务下载链接
+当任务下载链接失效了，下载没速度或失败则可以使用刷新下载链接的功能，使用新的链接继续下载，具体请[查看](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/common/refresh/read.md)。
+
+
+# 如果觉得对您有帮助，想请我喝咖啡
 
 ![](/wechat.jpg)
