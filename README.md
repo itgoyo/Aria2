@@ -8,7 +8,7 @@
       * [增加chrome插件安装](#增加chrome插件安装)
       * [关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)](#关于导入插件老是提示建议停止开发者模式解决方法仅适用于crx插件)
       * [如果您是Mac用户](#如果您是mac用户)
-* [BaiduPCS-Go](#BaiduPCS-Go(:rocket:个人比较推荐,真全速下载)) 
+* [BaiduPCS-Go](#BaiduPCS-Go) (:rocket:个人比较推荐,真全速下载)
 * [Tampermonkey](#tampermonkey)
 * [Proxyee-down](#proxyee-down)
    * [常见问题(<strong>必看</strong>)](#常见问题必看)
