@@ -8,7 +8,8 @@
       * [增加chrome插件安装](#增加chrome插件安装)
       * [关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)](#关于导入插件老是提示建议停止开发者模式解决方法仅适用于crx插件)
       * [如果您是Mac用户](#如果您是mac用户)
-* [Tampermonkey (:rocket:个人比较推荐)](#tampermonkey)
+* [BaiduPCS-Go](#BaiduPCS-Go(:rocket:个人比较推荐,真全速下载)) 
+* [Tampermonkey](#tampermonkey)
 * [Proxyee-down](#proxyee-down)
    * [常见问题(<strong>必看</strong>)](#常见问题必看)
    * [常用功能](#常用功能)
@@ -94,6 +95,10 @@
 [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 
 ![](http://omvbl46i3.bkt.clouddn.com/17-6-14/17375181.jpg?imageMogr2/thumbnail/700x)
+
+-----
+# BaiduPCS-Go
+[BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
 
 -----
 
