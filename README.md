@@ -154,4 +154,6 @@ https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldm
 
 # 如果觉得对您有帮助，想请我喝咖啡
 
+# 悄悄告诉你们一个秘密，手机版的百度云客户端原来用来下载视频或者是zip文件都是满速下载的，不嫌麻烦的直接挂手机客户端
+
 ![](/wechat.jpg)
