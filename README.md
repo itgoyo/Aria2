@@ -2,17 +2,26 @@
 [![GitHub stars](https://img.shields.io/github/stars/itgoyo/Aria2.svg?style=social&label=Star)](https://github.com/itgoyo/Aria2) [![GitHub forks](https://img.shields.io/github/forks/itgoyo/Aria2.svg?style=social&label=Fork)](https://github.com/itgoyo/Aria2/fork) [![GitHub watchers](https://img.shields.io/github/watchers/itgoyo/Aria2.svg?style=social&label=Watch)](https://github.com/itgoyo/Aria2) [![GitHub followers](https://img.shields.io/github/followers/itgoyo.svg?style=social&label=Follow)](https://github.com/itgoyo/Aria2)
 
 * [Aria2](#aria2)
-  * [webui-aria2](#webui-aria2)
-  * [YAAW](#yaaw)
-  * [Aria2-GUI](#aria2-gui)
-      * [增加chrome插件安装](#增加chrome插件安装)
-      * [关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)](#关于导入插件老是提示建议停止开发者模式解决方法仅适用于crx插件)
-* [如果您是Mac用户](#如果您是mac用户)
-* [BaiduPCS-Go](#baidupcs-go) (:rocket:个人比较推荐,真全速下载)
-* [Tampermonkey](#tampermonkey)
-* [Proxyee-down](#proxyee-down)
-* [手机百度云客户端](#手机百度云客户端)
-* [如果觉得对您有帮助，想请我喝咖啡](#如果觉得对您有帮助想请我喝咖啡)
+     * [webui-aria2](#webui-aria2)
+     * [YAAW](#yaaw)
+     * [Aria2-GUI](#aria2-gui)
+         * [增加chrome插件安装](#增加chrome插件安装)
+         * [关于导入插件老是提示“建议停止开发者模式”解决方法(仅适用于.crx插件)](#关于导入插件老是提示建议停止开发者模式解决方法仅适用于crx插件)
+
+   * [如果您是Mac用户](#如果您是mac用户)
+   * [BaiduPCS-Go](#baidupcs-go)
+   * [Tampermonkey](#tampermonkey)
+   * [Proxyee-down](#proxyee-down)
+         * [下载](#下载)
+         * [安装](#安装)
+         * [安装成功](#安装成功)
+      * [常见问题(<strong>必看</strong>)](#常见问题必看)
+      * [常用功能](#常用功能)
+         * [手动创建任务](#手动创建任务)
+         * [刷新任务下载链接](#刷新任务下载链接)
+   * [速盘](#速盘)
+   * [手机百度云客户端](#手机百度云客户端)
+   * [如果觉得对您有帮助，想请我喝咖啡](#如果觉得对您有帮助想请我喝咖啡)
 
 
 # Aria2
@@ -58,8 +67,9 @@
 
 ### 如果您是Mac用户
 
+- [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 
-请转 ☞[Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
+- [BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
 
 -----
 
@@ -144,6 +154,10 @@ ls
 可以根据链接来创建一个任务，支持自定义请求头和请求体，具体请[查看](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/common/create/read.md)。
 ### 刷新任务下载链接
 当任务下载链接失效了，下载没速度或失败则可以使用刷新下载链接的功能，使用新的链接继续下载，具体请[查看](https://github.com/monkeyWie/proxyee-down/blob/master/.guide/common/refresh/read.md)。
+
+# 速盘
+官网：http://www.speedpan.com
+
 
 # 手机百度云客户端
 悄悄告诉你们一个秘密，手机版的百度云客户端原来用来下载视频或者是zip文件都是满速下载的，不嫌麻烦的直接挂手机客户端,小文件下载不推荐使用客户端，因为小文件很多速度确实很慢。
