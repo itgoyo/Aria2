@@ -20,6 +20,7 @@
          * [手动创建任务](#手动创建任务)
          * [刷新任务下载链接](#刷新任务下载链接)
    * [速盘](#速盘)
+   * [Pandownload](#Pandownload)
    * [手机百度云客户端](#手机百度云客户端)
    * [如果觉得对您有帮助，想请我喝咖啡](#如果觉得对您有帮助想请我喝咖啡)
 
@@ -157,6 +158,9 @@ ls
 
 # 速盘
 官网：http://www.speedpan.com
+
+# Pandownload
+官网：http://pandownload.com/index.html
 
 
 # 手机百度云客户端
