@@ -70,7 +70,7 @@
 
 - [Aria2GUI for Mac](https://github.com/yangshun1029/aria2gui)
 
-- [BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS)
+- [BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS) 【注意一定是要<=2.2.2版本，往上版本已经修复这个漏洞】
 
 -----
 
